@@ -1,0 +1,36 @@
+% Creating CV from a template
+%
+% Author:
+% Vaibhavnath Jha
+\documentclass[localFont,alternative]{documentMETADATA}
+\name{Vaibhavnath}{Jha}
+\tagline{Operations Research Analyst, M.Sc.}
+\photo{2.5cm}{my-passport-photo}
+\socialinfo{
+	\personalLink{www.vaibhavnath.in}
+	\linkedin{vaibhavnathjha}\\
+	\smartphone{+49 176 4325 8833}
+	\email{vaibhavnath.jha@gmail.com}\\
+	\address{Braunschweig, Germany}
+	\infos{Indian Citizen | German Resident}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}} %\selectlanguage{english}\today
+		{\textsc{Vaibhavnath Jha - CV}}
+		{\thepage}
+
+	\input{section_headline}                % Research Statement
+	\input{section_experience}	        	% Section Professional Experience
+	\input{section_academic}
+	\input{section_skills}				    % Section Skills
+	\input{section_projects}                % Section projects
+	\input{section_references} 				% Section references
+
+
+
+\end{document}
